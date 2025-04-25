@@ -144,7 +144,7 @@ else:
     music_links = {
         "pathfinder": "sr8bE87AlaM",
         "resonant": "3nQNiWdeH2Q",
-        "weaver": "8ZtInClXe1Q",
+        "weaver": "8ci2wLu81eA",
         "dreamer": "E8E4zRzzyVM",
         "architect": "hn3wJ1_1Zsg",
         "challenger": "btm8qQUmPqY"
