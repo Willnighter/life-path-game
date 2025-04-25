@@ -140,7 +140,23 @@ else:
     st.markdown(f"### 🌟 {roles[result]['name']}")
     st.write(roles[result]['desc'])
     st.markdown(f"💬 *{roles[result]['quote']}*")
-
+     # 嵌入配樂播放器
+    music_links = {
+        "pathfinder": "sr8bE87AlaM",
+        "resonant": "3nQNiWdeH2Q",
+        "weaver": "8ZtInClXe1Q",
+        "dreamer": "E8E4zRzzyVM",
+        "architect": "hn3wJ1_1Zsg",
+        "challenger": "btm8qQUmPqY"
+    }
+    yt_id = music_links.get(result, None)
+    if yt_id:
+        st.markdown("🎧 **你的命運旋律：**")
+        st.components.v1.html(f'''
+            <iframe width="100%" height="166" scrolling="no" frameborder="no"
+            src="https://www.youtube.com/embed/{yt_id}?autoplay=0&controls=1&loop=1">
+            </iframe>
+        ''', height=180)
     if st.button("🔁 再玩一次"):
         st.session_state.start = False
         st.session_state.current_q = 0
