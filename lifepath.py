@@ -142,10 +142,10 @@ else:
     st.markdown(f"💬 *{roles[result]['quote']}*")
      # 嵌入配樂播放器
     music_links = {
-        "pathfinder": "sr8bE87AlaM",
+        "pathfinder": "UDVtMYqUAyw",
         "resonant": "3nQNiWdeH2Q",
         "weaver": "amfWIRasxtI",
-        "dreamer": "E8E4zRzzyVM",
+        "dreamer": "ME8E4zRzzyV",
         "architect": "hn3wJ1_1Zsg",
         "challenger": "btm8qQUmPqY"
     }
