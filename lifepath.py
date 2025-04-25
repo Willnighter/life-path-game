@@ -145,9 +145,9 @@ else:
         "pathfinder": "UDVtMYqUAyw",
         "resonant": "3nQNiWdeH2Q",
         "weaver": "amfWIRasxtI",
-        "dreamer": "ME8E4zRzzyV",
+        "dreamer": "9mnaWvP4R38",
         "architect": "hn3wJ1_1Zsg",
-        "challenger": "btm8qQUmPqY"
+        "challenger": "63k6AfvLsso"
     }
     yt_id = music_links.get(result, None)
     if yt_id:
